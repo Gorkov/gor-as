@@ -4,3 +4,4 @@
 2. cd site
 3. bower install
 4. npm install
+5. gulp
