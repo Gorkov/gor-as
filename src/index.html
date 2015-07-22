@@ -1,16 +1,201 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru-RU">
+
 <head>
 	<meta charset="UTF-8">
-	<title>workflow</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>First homework</title>
+	<!-- SEO -->
+	<meta name="description" content="homework">
+	<meta name="keywords" content="homework">
+	<meta name="author" content="Gorkov Anatolii">
+	<!-- normalize -->
 	<link rel="stylesheet" href="bower/normalize.css">
+	<!-- CSS -->
 	<link rel="stylesheet" href="css/main.css">
-</head>
-<body>
-	<h1>Вот и все</h1>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus!</p>
 
-<script src="bower/jquery/dist/jquery.js"></script>
-<script src="js/main.js"></script>
+	<!-- modernizer -->
+	<script src="bower/modernizer/modernizr.js"></script>
+</head>
+
+<body>
+	<!--[if lt IE 7]>
+	<p class="browsehappy">Ваш браузер <strong>устарел</strong>. Пожалуйста<a href="http://browserhappy.com/">обновите</a> его.</p>
+	<![endif]-->
+
+
+	<div class="wrapper">
+		<div class="main-content">
+			<!-- Header -->
+			<header class="my-header">
+				<div class="container-header">
+					
+					<a href="#" class="logo-link">
+					<img src="#" alt="logo" class="logo-img">
+					<span class="logo-text">Портфолия</span>
+					</a>
+
+					<ul class="soc-seti">
+						<li class="soc-seti-icon">
+						<a href="#" class="soc-seti-point vk">ВКонтакте</a>
+						</li>
+						<li class="soc-seti">
+						<a href="#" class="soc-seti-point tw">Twitter</a>
+						</li>
+						<li class="soc-seti">
+						<a href="#" class="soc-seti-point fb">Facebook</a>
+						</li>
+						<li class="soc-seti">
+						<a href="#" class="soc-seti-point gt">GitHub</a>
+						</li>
+					</ul>
+				
+				</div>
+			</header>
+			<!-- /Header -->
+			<div class="container">
+				
+				<!-- Левый блок -->
+				<aside class="my-aside">
+					<!-- Меню -->
+					<nav class="nav">
+						<ul class="nav-list">
+							<li class="nav-spisok">
+							<a href="#" class="nav-point">Обо мне</a>
+							</li>
+							<li class="nav-spisok">
+							<a href="#" class="nav-point">Мои работы</a>
+							</li>
+							<li class="nav-spisok">
+							<a href="#" class="nav-point">Связаться со мной</a>
+							</li>
+						</ul>
+					</nav>
+					<!-- /Меню -->
+					<!-- Контакты -->
+					<adress class="my-adress">
+						<div class="adress-header">
+							<span class="adress-header-text">Контакты</span>
+						</div>
+						
+						<ul class="adress-spisok">
+							<li class="adress-point adress-point-mail">
+								<a href="#" class="adress-icon"></a>
+								<span class="adress-text">gorkov.as@yandex.ru</span>
+							</li>
+							<li class="adress-point adress-point-phone">
+								<a href="#" class="adress-icon"></a>
+								<span class="adress-text">+79033300031</span>
+							</li>
+							<li class="adress-point cadres-point-skype">
+								<a href="#" class="adress-icon"></a>
+								<span class="adress-text">zikfridalyly</span>
+							</li>
+						</ul>
+					</adress>
+					<!-- /Контакты -->
+				</aside>
+				<!-- /Левый блок -->
+		
+				<!-- Контент -->
+				<div class="change-info">
+					
+					<!-- Основная информация -->
+					<section class="info">
+						<h2 class="info-header">Основная информация</h2>
+						<div class="info-body clearfix">
+							
+							<div class="img-wrap">
+								<div class="avatar-wrap">
+								<img src="#" alt="Фотография" class="avatar">
+								</div>
+							</div>
+							<div class="osnov-wrap">
+								<ul class="osnov-spisok">
+									<li class="osnov-point clearfix">
+										<div class="kto">Меня зовут:</div>
+										<div class="chto">Горьков Анатолий Сергеевич</div>
+									</li>
+									<li class="osnov-point clearfix">
+										<div class="kto">Мой возраст:</div>
+										<div class="chto">26 лет</div>
+									</li>
+									<li class="osnov-point clearfix">
+										<div class="kto">Мой город:</div>
+										<div class="chto">Самарская обл. г. Жигулевск</div>
+									</li>
+									<li class="osnov-point clearfix">
+										<div class="kto">Моя специализация:</div>
+										<div class="chto">Frontend-разработчик</div>
+									</li>
+									<li class="osnov-point clearfix">
+										<div class="kto">Ключевые навыки:</div>
+										<div class="chto navik">
+											<ul class="navik-spisok">
+												<li class="navik-point">HTML</li>
+												<li class="navik-point">CSS</li>
+											</ul>
+										</div>
+									</li>
+								</ul>
+							</div>
+
+						</div>
+					</section>
+					<!-- /Основная информация -->
+					<!-- Опыт работы -->
+					<section class="info">
+						<h2 class="info-header">Опыт работы</h2>
+						<div class="info-body">
+							<ul class="info-spisok">
+								<li class="info-point icon-work">
+									<div class="gde">4 ОФПС ГПС - мастер-пожарный</div>
+									<div class="kogda">ноябрь 2010 - май 2013</div>
+								</li>
+								<li class="info-point icon-work">
+									<div class="gde">ЗАО "Нефтефлот" - бригадир-слесарь</div>
+									<div class="kogda">октябрь 2013 - май 2015</div>
+								</li>
+							</ul>
+						</div>
+					</section>
+					<!-- /Опыт работы -->
+					<!-- Образование -->
+					<section class="info">
+						<h2 class="info-header">Образование</h2>
+						<div class="info-body">
+							<ul class="info-spisok">
+								<li class="info-point icon-had">
+									<div class="gde">Высшее. ПГУТИ</div>
+									<div class="kogda">2008 - 2014</div>
+								</li>
+								<li class="info-point icon-doc">
+									<div class="gde">Loftschool</div>
+									<div class="kogda">июль 2015 - н.в.</div>
+								</li>
+							</ul>
+						</div>
+					</section>
+					<!-- /Образование -->
+
+				</div>
+
+
+
+			</div>
+
+
+
+
+		</div>
+	</div>
+	<footer class="my-footer">
+		<div class="container">
+			<div class="lock"><a href="#" class="lock-in">Войти</a></div>
+			<div class="copyright">@ 2015, Это мой личный сайт и будьте добры не воруйте его</div>
+		</div>
+	</footer>
+	<script src="bower/jquery/dist/jquery.js"></script>	
+	<script src="js/main.js"></script>
 </body>
 </html>
