@@ -1,0 +1,124 @@
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+	background: url(../img/pattern.png) repeat;
+}
+/*прибиваем footer*/
+.wrapper{
+	position: relative;
+	min-height: 100%;
+	min-width: 970px;
+	height: auto;
+}
+.wrapper:after{
+	content: "";
+	height: 80px;
+}
+.my-footer{
+	min-width: 970px;
+	height: 80px;
+}
+/*/прибьем footer*/
+
+.main-content{
+	min-width: 960px;
+	max-width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+					/*Header*/
+.my-header{
+	background: url(../img/line.png) bottom center no-repeat;
+	height: 120px;
+
+					/*Логотип*/
+}
+.my-header .logo-link{
+	position: absolute;
+	top: 32px;
+	left: 0;
+}
+.my-header .logo-text{
+	margin-left: -110px;
+}
+.my-header .soc-seti{
+	right: 0;
+	position: absolute;
+	top: 32px;
+}
+					/*Социалка*/
+
+.soc-seti{
+	margin: 0;
+	padding: 0;
+	min-width: 260px;
+}
+.soc-seti .soc-icon{
+	list-style: none;
+	height: 47px;
+	width: 47px;
+	display: inline-block;
+	margin-left: 19px;
+
+
+
+}
+.soc-seti .soc-icon:first-child{
+	margin-left: 0;
+}
+.soc-seti .soc-point{
+	height: 100%;
+	width: 100%;
+	display: block;
+	text-indent: -9999px;
+	background: url(../img/socials.png) no-repeat;
+}
+.soc-icon .soc-point.vk{background-position: -2px -3px; };
+.soc-icon .soc-point.tw{background-position: -5px -3px; };
+.soc-icon .soc-point.fb{background-position: -2px -3px; };
+.soc-icon .soc-point.gt{background-position: -2px -3px; };
+
+
+
+
+
+
+
+
+
+				/*My footer*/
+.my-footer{
+	background: url(../img/line.png) top center no-repeat;
+	font-family: 'fira_sanslight';
+}
+.my-footer .container{
+	padding-top: 25px;
+	position: relative;
+}
+.my-footer .copyright{
+	margin: 0 180px;
+	text-align: center;
+	font-size: 13px;
+}
+.my-footer .lock{
+	position: absolute;
+	top: 25px;
+	left: 20px;
+}
+				/*Войти*/
+.my-footer .lock-in{
+	display: block;
+	height: 40px;
+	font-size: 16px;
+	padding-left: 25px;
+	line-height: 2.2;
+	background: url(../img/lock-close.png) no-repeat;
+	font-family: 'fira_sansbook';
+}
+.my-footer .lock-in:hover{
+	background: url(../img/lock-open.png) no-repeat;
+
+}
