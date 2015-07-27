@@ -8,14 +8,14 @@
 	display: inline-block;
 	font-family: 'fira_sansbook';
 	font-weight: normal;
-	font-size: 25px;
+	font-size: 27px;
 	color: #3BA8C0;
 	border-bottom: 2px #3BA8C0 solid;
-	margin: 0 0 23px 0;
-	padding: 10px 10px;
+	margin: 0 0 19px 0;
+	padding: 12px 21px;
 }
 .info-body{
-	padding-bottom: 40px;
+	padding-bottom: 68px;
 }
 /*Конец общего стиля*/
 
@@ -24,8 +24,8 @@
 /*Аватар*/
 .img-wrap{
 	float: left;
-	margin-top: 25px;
-	margin-left: 25px;
+	margin-top: 15px;
+	margin-left: 55px;
 }
 .avatar-wrap{
 	height: 142px;
@@ -47,19 +47,22 @@
 	margin: 0;
 }
 .osnov-point{
-	margin-bottom: 10px;
+	margin-bottom: 6px;
+	margin-left: -21px;
 }
 .kto{
 	float: left;
-	font-family: 'fira_sansmedium';
-	font-size: 16px;
+	font-family: 'fira_sansbook';
+	font-size: 17px;
 }
 .chto{
 	font-family: 'fira_sansbook';
+	font-weight: normal;
 	font-size: 15px;
 	max-width: 218px;
 	overflow: hidden;
 	padding-left: 20px;
+	color: #5A636C;
 }
 /*Конец информация*/
 
@@ -98,18 +101,18 @@
 }
 .info-point{
 	padding: 0 0 0 76px;
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 }
 .info-point:last-child{
 	margin-bottom: 0;
 }
 .info-spisok .gde{
 	font-size: 16px;
-	font-family: 'fira-sansbook';
+	font-family: 'fira_sansbook';
 }
 .info-spisok .kogda{
 	font-size: 15px;
-	font-family: 'fira_sanslight';
+	font-family: 'fira_sansbook';
 	line-height: 1;
 }
 .info-spisok .icon-work{
