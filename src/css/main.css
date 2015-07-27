@@ -15,6 +15,16 @@ body{
 .text-center{
 	text-align: center;
 }
+/* clearfix */
+.container:before, .clearfix:before,
+.container:after, .clearfix:after {
+	content: " "; /* 1 */
+	display: table; /* 2 */
+}
+.container:after, .clearfix:after {
+  clear: both;	
+}
+/* clearfix - конец */
 /*конец общие классы*/
 				/*прибиваем footer*/
 .wrapper{
