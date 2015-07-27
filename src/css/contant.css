@@ -1,0 +1,69 @@
+/*Общий стиль для блоков контента*/
+.info{
+	background: #EFF3F7;
+	margin-bottom: 25px;
+	border-radius: 4px;
+}
+.info-header{
+	display: inline-block;
+	font-family: 'fira_sansbook';
+	font-weight: normal;
+	font-size: 25px;
+	color: #3BA8C0;
+	border-bottom: 2px #3BA8C0 solid;
+	padding: 10px 10px;
+}
+.info-body{
+	padding-bottom: 40px;
+}
+/*Конец общего стиля*/
+
+/*Основная информация*/
+
+/*Аватар*/
+.img-wrap{
+	float: left;
+	margin-top: 25px;
+	margin-left: 25px;
+}
+.avatar-wrap{
+	height: 142px;
+	width: 142px;
+	border-radius: 50% 50%;
+	overflow: hidden;
+	border: 5px solid #3ba8c0;
+}
+/*Конец аватар*/
+
+/*Информация*/
+.osnov-wrap{
+	float: right;
+	width: 400px;
+}
+.osnov-spisok{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.osnov-point{
+	margin-bottom: 10px;
+}
+.kto{
+	float: left;
+	font-family: 'fira_sansmedium';
+	font-size: 16px;
+}
+.chto{
+	font-family: 'fira_sansbook';
+	font-size: 15px;
+	max-width: 218px;
+	overflow: hidden;
+	padding-left: 20px;
+}
+/*Конец информация*/
+
+/*Ключевые навыки*/
+.chto .navik-spisok{
+	padding: 0;
+	list-style: none;
+}

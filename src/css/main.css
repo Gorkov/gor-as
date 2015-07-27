@@ -4,13 +4,24 @@ html{
 body{
 	height: 100%;
 	background: url(../img/pattern.png) repeat;
+	font: 'fira_sanslight';
+	color: #4a545d;
 }
-/*прибиваем footer*/
+/*общие классы*/
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+.text-center{
+	text-align: center;
+}
+/*конец общие классы*/
+				/*прибиваем footer*/
 .wrapper{
 	position: relative;
 	min-height: 100%;
 	min-width: 970px;
-	height: auto;
+	height: auto!important;
 }
 .wrapper:after{
 	content: "";
@@ -19,22 +30,25 @@ body{
 .my-footer{
 	min-width: 970px;
 	height: 80px;
+	background: #eff3f7 url(../img/line.png) top center no-repeat;
+	color: #4a545d;
+	margin-top: 85px;
 }
-/*/прибьем footer*/
+/*Конец прибиваем footer*/
 
-.main-content{
-	min-width: 960px;
+				/*Header*/
+.container-header{
 	max-width: 1200px;
+	min-width: 960px;
 	height: 100%;
 	margin: 0 auto;
 	position: relative;
 }
-					/*Header*/
 .my-header{
-	background: url(../img/line.png) bottom center no-repeat;
+	background: #eff3f7 url(../img/line.png) bottom center no-repeat;
 	height: 120px;
-
-					/*Логотип*/
+	position: relative;
+	margin-bottom: 39px;
 }
 .my-header .logo-link{
 	position: absolute;
@@ -42,6 +56,7 @@ body{
 	left: 0;
 }
 .my-header .logo-text{
+	position: absolute;
 	margin-left: -110px;
 }
 .my-header .soc-seti{
@@ -49,50 +64,38 @@ body{
 	position: absolute;
 	top: 32px;
 }
-					/*Социалка*/
+/*Конец Header*/
 
+				/*Социалка 1*/
 .soc-seti{
 	margin: 0;
 	padding: 0;
 	min-width: 260px;
-}
+}		
 .soc-seti .soc-icon{
 	list-style: none;
+	display: inline-block;
 	height: 47px;
 	width: 47px;
-	display: inline-block;
 	margin-left: 19px;
-
-
-
 }
 .soc-seti .soc-icon:first-child{
 	margin-left: 0;
 }
 .soc-seti .soc-point{
+	display: block;
 	height: 100%;
 	width: 100%;
-	display: block;
 	text-indent: -9999px;
 	background: url(../img/socials.png) no-repeat;
 }
-.soc-icon .soc-point.vk{background-position: -2px -3px; };
-.soc-icon .soc-point.tw{background-position: -5px -3px; };
-.soc-icon .soc-point.fb{background-position: -2px -3px; };
-.soc-icon .soc-point.gt{background-position: -2px -3px; };
-
-
-
-
-
-
-
-
+.soc-seti .soc-point.vk{background-position: -2px -3px; };
+/*Конец Социалка 1*/
 
 				/*My footer*/
 .my-footer{
-	background: url(../img/line.png) top center no-repeat;
-	font-family: 'fira_sanslight';
+	background: #eff3f7 url(../img/line.png) top center no-repeat;
+	color: #4a545d;
 }
 .my-footer .container{
 	padding-top: 25px;
@@ -101,24 +104,148 @@ body{
 .my-footer .copyright{
 	margin: 0 180px;
 	text-align: center;
+	padding-top: 7px;
 	font-size: 13px;
 }
+/*Конец My footer*/
+
+				/*Авторизация*/
 .my-footer .lock{
 	position: absolute;
-	top: 25px;
-	left: 20px;
+	top: 26px;
+	left: 26px;
 }
-				/*Войти*/
-.my-footer .lock-in{
+.lock .lock-in{
 	display: block;
 	height: 40px;
 	font-size: 16px;
 	padding-left: 25px;
 	line-height: 2.2;
+	color: #4a545d;
+	text-decoration: none;
 	background: url(../img/lock-close.png) no-repeat;
 	font-family: 'fira_sansbook';
 }
-.my-footer .lock-in:hover{
+.lock .lock-in:hover{
+	text-decoration: underline;
 	background: url(../img/lock-open.png) no-repeat;
+}
+/*Конец Авторизация*/
 
+						/*Социалка 2*/
+.soc-seti .soc-point.tw{
+	background-position: -71px -3px;
+}
+.soc-seti .soc-point.fb{
+	background-position: -140px -3px;
+}
+.soc-seti .soc-point.gt{
+	background-position: -209px -3px;
+}
+.soc-seti .soc-point:hover{
+	background-position-y: -65px;
+}
+/*Конец социалки 2*/
+
+
+
+/*a-side*/
+.my-aside{
+float: left;
+width: 250px;
+}
+/*навигация*/
+.nav{
+	overflow: hidden;
+	background: #EFF3F7;
+	border-radius: 4px;
+	margin-bottom: 25px;
+}
+.nav .nav-list{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.nav .nav-spisok{
+	border-top: 2px solid #3ba8c0;
+	margin: 0 11px;
+}
+.nav .nav-spisok:first-child{
+	border-top: none;
+}
+.nav .nav-point{
+	font-family: 'fira_sansbook';
+display: block;
+font-size: 22px;
+text-decoration: none;
+color: #959aa8;
+padding: 22px 0px;
+margin-left: 20px;
+}
+.nav .nav-point:hover{
+	color: color: #3ba8c0;
+}
+/*текущий пункт*/
+.nav .nav-spisok.actual{
+	background: #3BA8C0;
+	margin: 0;
+	border-bottom: none;
+	margin-bottom: -2px;
+	padding-left: 10px;
+}
+.nav .nav-spisok.actual .nav-point{
+	color: #f9fafb;
+	font-size: 22px;
+}
+/*Конец навигация*/
+
+			/*adress*/
+.my-adress{
+	overflow: hidden;
+	border-radius: 4px;
+}
+/*зоголовок*/
+.my-adress .adress-header{
+	background: #3BA8C0;
+}
+.my-adress .adress-header-text{
+	display: block;
+	font-size: 20px;
+	padding: 15px;
+	margin-left: 10px;
+	color: white;
+}
+/* Конец зоголовок*/
+
+.my-adress .adress-spisok{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.my-adress .adress-icon{
+	display: block;
+	text-decoration: none;
+	padding: 17px 0;
+	margin-left: 70px;
+	color: white;
+}
+
+.my-adress .adress-point-mail{
+	background: url(../img/mail.png) 29px no-repeat;
+	background-color: #41B9D4;
+}
+.my-adress .adress-point-phone{
+	background: url(../img/phone.png) 29px no-repeat;
+	background-color: #48CBE8;
+}
+.my-adress .adress-point-skype{
+	background: url(../img/skype.png) 29px no-repeat;
+	background-color: #51DAF8;
+}
+/*Конец adress*/
+
+/*Основной контент*/
+.change-info{
+	float: right;
+	width: 650px;
 }
