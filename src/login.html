@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>First homework</title>
+    <!-- SEO -->
+    <meta name="description" content="homework">
+    <meta name="keywords" content="homework">
+    <meta name="author" content="Gorkov Anatolii">
+    <!-- normalize -->
+    <link rel="stylesheet" href="bower/normalize.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/contant.css">
+    <link rel="stylesheet" href="css/all-form.css">
+    <link rel="stylesheet" href="css/kontakt.css">
+    <link rel="stylesheet" href="css/modul.css">
+    <link rel="stylesheet" href="css/login.css">
+    <!-- modernizer -->
+    <script src="bower/modernizer/modernizr.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+    <p class="browsehappy">Ваш браузер <strong>устарел</strong>. Пожалуйста<a href="http://browserhappy.com/">обновите</a> его.</p>
+    <![endif]-->
+    <!-- .................Логин......................... -->
+<div class="wrapper">
+
+      <div class="main-content">
+
+        <div class="login-section">
+
+          <div class="modal-wrap login-wrap">
+
+            <div class="modal-header">
+              <h2 class="modal-title">Авторизуйтесь</h2></div>
+
+            <div class="modal-body">
+
+              <form id="login" role="form" class="form">
+
+                <div class="server-mes error-mes"></div>
+                <div class="server-mes success-mes"></div>
+
+                <div class="input-form">
+                  <label for="login" class="label">Логин</label>
+                  <input id="name" type="text" name="login" placeholder="Введите логин" qtip-content="Вы не ввели логин" class="input">
+                </div>
+
+                <div class="input-form">
+                  <label for="password" class="label">Пароль</label>
+                  <input id="password" type="password" name="login" placeholder="Введите пароль" qtip-content="Вы не ввели пароль" class="input">
+                </div>
+
+                <button type="submit" class="btn">Войти</button>
+              </form>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+<!-- ................./Логин......................... -->
+    <footer class="my-footer">
+        <div class="container">
+            <div class="lock"><a href="#" class="lock-in">Войти</a></div>
+            <div class="copyright">@ 2015, Это мой личный сайт и будьте добры не воруйте его</div>
+        </div>
+    </footer>
+    <script src="bower/jquery/dist/jquery.js"></script> 
+</body>
+</html>
