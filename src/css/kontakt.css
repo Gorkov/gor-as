@@ -1,0 +1,53 @@
+/*Связаться со мной*/
+.header-wrap{
+	background: #48cbe8;
+	border-bottom: 17px solid #67dffa;
+	padding: 19px 20px 31px;
+	border-radius: 5px 5px 0 0;
+	text-align: center;
+	margin-bottom: 41px;
+}
+.header-text{
+	font-family: 'fira_sansbook';
+	font-weight: normal;
+	font-size: 27px;
+	color: #ffffff;
+	border: none;
+	margin-bottom: 6px;
+}
+.contact-form-wrap{
+	width: 402px;
+	margin: 0 auto;
+}
+.contact-form .textarea{
+	height: 182px;
+}
+.contact-form .name-mail-wrap .input-form{
+	width: 48%;
+}
+.contact-form .name-mail-wrap{
+	margin-bottom: 11px;
+}
+.contact-form .captcha{
+	width: 48%;
+}
+.contact-form .captcha-wrap{
+	margin: 0 auto 31px;	
+	margin-bottom: 48px;
+}
+.contact-form .input-captcha{
+	height: 32px;
+  width: 48%;
+  margin-top: 21px;
+  padding: 6px 12px;
+}
+.contact-form .button-form button[type="reset"]{
+	float: right;
+}
+.contact-form .captcha-wrap .label{
+	font-size: 16px;
+}
+.textarea-kont{
+	margin-bottom: 14px;
+}
+/*/Связаться со мной*/

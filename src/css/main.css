@@ -1,3 +1,4 @@
+/*Глобально*/
 html{
 	height: 100%;
 }
@@ -7,6 +8,8 @@ body{
 	font: 'fira_sanslight';
 	color: #4a545d;
 }
+/*/Глобально*/
+
 /*общие классы*/
 .container{
 	width: 960px;
@@ -14,6 +17,12 @@ body{
 }
 .text-center{
 	text-align: center;
+}
+.float-left{
+	float: left;
+}
+.float-right{
+	float: right;
 }
 /* clearfix */
 .container:before, .clearfix:before,
@@ -44,9 +53,9 @@ body{
 	color: #4a545d;
 	margin-top: 85px;
 }
-/*Конец прибиваем footer*/
+/*/прибиваем footer*/
 
-				/*Header*/
+/*Шапка*/
 .container-header{
 	max-width: 1200px;
 	min-width: 960px;
@@ -74,9 +83,9 @@ body{
 	position: absolute;
 	top: 34px;
 }
-/*Конец Header*/
+/*/Шапка*/
 
-				/*Социалка 1*/
+/*Социальные иконки 1*/
 .soc-seti{
 	margin: 0;
 	padding: 0;
@@ -100,9 +109,9 @@ body{
 	background: url(../img/socials.png) no-repeat;
 }
 .soc-seti .soc-point.vk{background-position: -2px -3px; };
-/*Конец Социалка 1*/
+/*/Социальные иконки 1*/
 
-				/*My footer*/
+/*My footer*/
 .my-footer{
 	background: #eff3f7 url(../img/line.png) top center no-repeat;
 	color: #4a545d;
@@ -117,9 +126,9 @@ body{
 	padding-top: 7px;
 	font-size: 12px;
 }
-/*Конец My footer*/
+/*/My footer*/
 
-				/*Авторизация*/
+/*Логин*/
 .my-footer .lock{
 	position: absolute;
 	top: 26px;
@@ -140,9 +149,9 @@ body{
 	text-decoration: underline;
 	background: url(../img/lock-open.png) no-repeat;
 }
-/*Конец Авторизация*/
+/*/Логин*/
 
-						/*Социалка 2*/
+/*Социальные иконки 2*/
 .soc-seti .soc-point.tw{
 	background-position: -71px -3px;
 }
@@ -155,11 +164,11 @@ body{
 .soc-seti .soc-point:hover{
 	background-position-y: -65px;
 }
-/*Конец социалки 2*/
+/*/Социальные иконки 2*/
 
 
 
-/*a-side*/
+/*Левый блок*/
 .my-aside{
 float: left;
 width: 250px;
@@ -207,15 +216,15 @@ margin-left: 20px;;
 	color: #f9fafb;
 	font-size: 23px;;
 }
-/*Конец навигация*/
+/*/навигация*/
 
-			/*adress*/
+/*адреса*/
 .my-adress{
 	overflow: hidden;
 	border-radius: 4px;
 	font-family: 'fira_sansbook';
 }
-/*зоголовок*/
+/*Обо мне*/
 .my-adress .adress-header{
 	background: #3BA8C0;
 }
@@ -226,7 +235,7 @@ margin-left: 20px;;
 	margin: 0px 16px;
 	display: block;
 }
-/* Конец зоголовок*/
+/* /Обо мне*/
 
 .my-adress .adress-spisok{
 	list-style: none;
@@ -254,7 +263,9 @@ margin-left: 20px;;
 	background: url(../img/skype.png) 43px no-repeat;
 	background-color: #51DAF8;
 }
-/*Конец adress*/
+/*/адреса*/
+
+/*/Левый блок*/
 
 /*Основной контент*/
 .change-info{

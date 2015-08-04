@@ -1,4 +1,4 @@
-					/* Имеющиеся работы */
+/* Имеющиеся работы */
 .work-wrap{
 	margin: 0 20px;
 }
@@ -72,9 +72,9 @@
 	margin: 5px 0;
 	line-height: 1.2;
 }
-				/*/ Имеющиеся работы*/
+/*/ Имеющиеся работы*/
 
-				/* Добавить новую работу */
+/* Добавить новую работу */
 .add-new-work{	
 	border: dashed 1px #3ba8c0;
 	border-radius: 4px;
@@ -122,10 +122,10 @@
 	from { transform: translateY(200%); opacity: 0;}
     to { transform: translateY(0%); opacity: 1;}
 }
-					/* / Добавить новую работу */
+/* / Добавить новую работу */
 
 
-					/* Скрываем модальное окно */
+/* Скрываем модальное окно */
 #new-work-popup { 
 	display:none;
 	 

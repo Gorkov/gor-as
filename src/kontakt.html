@@ -66,13 +66,13 @@
 					<nav class="nav">
 						<ul class="nav-list">
 							<li class="nav-spisok actual">
-							<a href="#" class="nav-point">Обо мне</a>
+							<a href="index.html" class="nav-point">Обо мне</a>
 							</li>
 							<li class="nav-spisok">
 							<a href="work.html" class="nav-point">Мои работы</a>
 							</li>
 							<li class="nav-spisok">
-							<a href="kontakt.html" class="nav-point">Связаться со мной</a>
+							<a href="#" class="nav-point">Связаться со мной</a>
 							</li>
 						</ul>
 					</nav>
@@ -106,85 +106,60 @@
 				<!-- /Левый блок -->
 		
 				<!-- Контент -->
-				<div class="change-info"
-					
-					<!-- Основная информация -->
-					<section class="info">
-						<h2 class="info-header">Основная информация</h2>
-						<div class="info-body clearfix">
-							
-							<div class="img-wrap">
-								<div class="avatar-wrap">
-								<img src="img/avatr.jpg" height="300" width="208" alt="Фотография" class="avatar">
-								</div>
-							</div>
-							<div class="osnov-wrap">
-								<ul class="osnov-spisok">
-									<li class="osnov-point clearfix">
-										<div class="kto">Меня зовут:</div>
-										<div class="chto">Горьков Анатолий Сергеевич</div>
-									</li>
-									<li class="osnov-point clearfix">
-										<div class="kto">Мой возраст:</div>
-										<div class="chto">26 лет</div>
-									</li>
-									<li class="osnov-point clearfix">
-										<div class="kto">Мой город:</div>
-										<div class="chto">Самарская обл. г. Жигулевск</div>
-									</li>
-									<li class="osnov-point clearfix">
-										<div class="kto">Моя специализация:</div>
-										<div class="chto">Frontend-разработчик</div>
-									</li>
-									<li class="osnov-point clearfix">
-										<div class="kto">Ключевые навыки:</div>
-										<div class="chto">
-											<ul class="navik-spisok">
-												<li class="navik-point">html</li>
-												<li class="navik-point">css</li>
-											</ul>
-										</div>
-									</li>
-								</ul>
-							</div>
+				<div class="change-info">
+					<!-- .......................Связаться со мной.................... -->
+            <section class="info">
 
-						</div>
-					</section>
-					<!-- /Основная информация -->
-					<!-- Опыт работы -->
-					<section class="info">
-						<h2 class="info-header">Опыт работы</h2>
-						<div class="info-body">
-							<ul class="info-spisok">
-								<li class="info-point icon-work">
-									<div class="gde">4 ОФПС ГПС - мастер-пожарный</div>
-									<div class="kogda">ноябрь 2010 - май 2013</div>
-								</li>
-								<li class="info-point icon-work">
-									<div class="gde">ЗАО "Нефтефлот" - бригадир-слесарь</div>
-									<div class="kogda">октябрь 2013 - май 2015</div>
-								</li>
-							</ul>
-						</div>
-					</section>
-					<!-- /Опыт работы -->
-					<!-- Образование -->
-					<section class="info">
-						<h2 class="info-header">Образование</h2>
-						<div class="info-body">
-							<ul class="info-spisok">
-								<li class="info-point icon-had">
-									<div class="gde">Высшее. ПГУТИ</div>
-									<div class="kogda">2008 - 2014</div>
-								</li>
-								<li class="info-point icon-doc">
-									<div class="gde">Loftschool</div>
-									<div class="kogda">июль 2015 - н.в.</div>
-								</li>
-							</ul>
-						</div>
-					</section>
-					<!-- /Образование -->
+              <div class="header-wrap">
+                <h2 class="header-text">У вас интересный проект? Напишите мне!</h2>
+                </div>
+
+              <div class="info-body">
+
+                <div class="contact-form-wrap">
+
+                  <form id="contact-me" class="form contact-form">
+
+                    <div class="server-mes error-mes"></div>
+                    <div class="server-mes success-mes"></div>
+
+                    <div class="name-mail-wrap clearfix">
+
+                      <div class="input-form float-left">
+                        <label for="name" class="label">Имя</label>
+                        <input type="text" name="name" placeholder="Как к вам обращаться" class="input">
+                      </div>
+
+                      <div class="input-form float-right">
+                        <label for="email" class="label">Email</label>
+                        <input type="text" name="email" placeholder="Куда мне писать" qtip-position="right" class="input">
+                      </div>
+
+                    </div>
+
+                    <div class="input-form">
+                      <label for="message" class="label">Сообщение</label>
+                      <textarea id="message" name="message" rows="3" placeholder="Кратко в чем суть" class="textarea textarea-kont"></textarea>
+                    </div>
+
+                    <div class="input-form captcha-wrap clearfix">
+                      <label for="captcha" class="label">Введите код, указанный на картинке</label><img src="img/bg_captcha.jpg" alt="код" class="captcha float-left">
+                      <input type="text" name="captcha" placeholder="Введите код" qtip-position="right" class="input input-captcha float-right">
+                    </div>
+
+                    <div class="button-form">
+                      <button type="submit" class="btn">Отправить</button>
+                      <button type="reset" class="btn btn-res">Очистить</button>
+                    </div>
+
+                  </form>
+
+                </div>
+              </div>
+
+            </section>
+<!-- ................./Связаться со мной.......................... -->
+					
 
 				</div>
 
@@ -199,7 +174,7 @@
 	</div>
 	<footer class="my-footer">
 		<div class="container">
-			<div class="lock"><a href="login.html" class="lock-in">Войти</a></div>
+			<div class="lock"><a href="#" class="lock-in">Войти</a></div>
 			<div class="copyright">@ 2015, Это мой личный сайт и будьте добры не воруйте его</div>
 		</div>
 	</footer>
