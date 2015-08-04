@@ -68,6 +68,7 @@
 	text-decoration: none;
 }
 .work-point .work-text{
+	font-family: 'fira_sanslight';
 	font-size: 15px;
 	margin: 5px 0;
 	line-height: 1.2;
@@ -99,13 +100,10 @@
 	text-decoration: underline;
 }
 
-
-
 @-webkit-keyframes moveFromBottom {
 	from { -webkit-transform: translateY(200%); opacity: 0;}
     to { -webkit-transform: translateY(0%) scale(1); opacity: 1;}
 }
-
 @-moz-keyframes moveFromBottom {
     from { -moz-transform: translateY(200%); opacity: 0;}
     to { -moz-transform: translateY(0%); opacity: 1;}
@@ -123,13 +121,11 @@
     to { transform: translateY(0%); opacity: 1;}
 }
 /* / Добавить новую работу */
-
-
 /* Скрываем модальное окно */
 #new-work-popup { 
 	display:none;
 	 
 }
-
-
-
+#add-new-project .label{
+	font-family: 'fira_sansbook';
+}

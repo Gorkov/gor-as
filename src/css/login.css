@@ -17,6 +17,9 @@
 	left: 0;
 	margin: auto;
 }
+.modal-body .label{
+	font-family: 'fira_sanslight';
+}
 .login-wrap .input{
 	font-size: 17px;
 	padding: 17px 12px;
@@ -42,7 +45,7 @@
 .login-wrap .modal-title{
 	font-size: 40px;
 }
-.login-wrap .input-form {
+.login-wrap .form-group{
 	margin-bottom: 14px;
 }
 /*/Логин-модуль*/

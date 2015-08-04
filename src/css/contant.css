@@ -52,7 +52,7 @@
 }
 .kto{
 	float: left;
-	font-family: 'fira_sansbook';
+	font-family: 'fira_sansmedium';
 	font-size: 17px;
 }
 .chto{
@@ -67,7 +67,8 @@
 /*Конец информация*/
 
 /*Ключевые навыки*/
-.chto .navik-spisok{
+.navik-spisok{
+	width: 224px;
 	padding: 0;
 	list-style: none;
 }
@@ -84,7 +85,8 @@
 	background: linear-gradient(to bottom,  #3ba8c0 0%,#3ba8c0 49%,#2e8ca2 50%,#2e8ca2 99%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ba8c0', endColorstr='#2e8ca2',GradientType=0 ); /* IE6-9 */
 	border-radius: 4px;
-	margin-left: 5px;
+	padding: 0 7px;
+	margin-right: 6px;
 	line-height: 1.2;
 	min-width: 40px;
 	text-align: center;
@@ -112,7 +114,7 @@
 }
 .info-spisok .kogda{
 	font-size: 15px;
-	font-family: 'fira_sansbook';
+	font-family: 'fira_sanslight';
 	line-height: 1;
 }
 .info-spisok .icon-work{

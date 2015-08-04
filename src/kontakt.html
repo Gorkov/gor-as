@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru-RU">
-
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +9,7 @@
 	<meta name="keywords" content="homework">
 	<meta name="author" content="Gorkov Anatolii">
 	<!-- normalize -->
-	<link rel="stylesheet" href="bower/normalize.css">
+	<link rel="stylesheet" href="bower/normalize/normalize.css">
 	<!-- CSS -->
 	<link rel="stylesheet" href="fonts/fonts.css">
 	<link rel="stylesheet" href="css/main.css">
@@ -22,56 +21,49 @@
 	<!-- modernizer -->
 	<script src="bower/modernizer/modernizr.js"></script>
 </head>
-
 <body>
 	<!--[if lt IE 7]>
 	<p class="browsehappy">Ваш браузер <strong>устарел</strong>. Пожалуйста<a href="http://browserhappy.com/">обновите</a> его.</p>
 	<![endif]-->
-
-
 	<div class="wrapper">
 		<div class="main-content">
 			<!-- Header -->
 			<header class="my-header">
 				<div class="container-header">
-
 					<a class="logo-link">
 					<img src="img/logo.png" height="42" width="243" alt="logo" class="logo-img">
 					<span class="logo-text">Портфолио</span>
 					</a>
-
 					<ul class="soc-seti">
 						<li class="soc-icon">
-						<a href="http://vk.com/" class="soc-point vk">ВКонтакте</a>
+						<a href="http://vk.com/id19059590" class="soc-point vk">ВКонтакте</a>
 						</li>
 						<li class="soc-icon">
 						<a href="https://twitter.com/" class="soc-point tw">Twitter</a>
 						</li>
 						<li class="soc-icon">
-						<a href="https://ru-ru.facebook.com/" class="soc-point fb">Facebook</a>
+						<a href="https://www.facebook.com/zikfridalyly" class="soc-point fb">Facebook</a>
 						</li>
 						<li class="soc-icon">
-						<a href="https://github.com/" class="soc-point gt">GitHub</a>
+						<a href="https://github.com/Gorkov" class="soc-point gt">GitHub</a>
 						</li>
 					</ul>
-				
 				</div>
 			</header>
 			<!-- /Header -->
 			<div class="container">
-				
 				<!-- Левый блок -->
 				<aside class="my-aside">
 					<!-- Меню -->
 					<nav class="nav">
 						<ul class="nav-list">
-							<li class="nav-spisok actual">
+							<li class="nav-spisok">
 							<a href="index.html" class="nav-point">Обо мне</a>
 							</li>
 							<li class="nav-spisok">
 							<a href="work.html" class="nav-point">Мои работы</a>
 							</li>
-							<li class="nav-spisok">
+							<li class="nav-spisok actual">
 							<a href="#" class="nav-point">Связаться со мной</a>
 							</li>
 						</ul>
@@ -82,20 +74,19 @@
 						<div class="adress-header">
 							<span class="adress-header-text">Контакты</span>
 						</div>
-						
 						<ul class="adress-spisok">
 							<li class="adress-point adress-point-mail">
-								<a href="#" class="adress-icon">
+								<a href="mailto:gorkov.as@yandex.ru" class="adress-icon">
 								<span class="adress-text">gorkov.as@yandex.ru</span>
 								</a>
 							</li>
 							<li class="adress-point adress-point-phone">
-								<a href="#" class="adress-icon">
+								<a href="skype:+79033300031?call" class="adress-icon">
 								<span class="adress-text">+79033300031</span>
 								</a>
 							</li>
 							<li class="adress-point adress-point-skype">
-								<a href="#" class="adress-icon">
+								<a href="skype:zikfridalyly?call" class="adress-icon">
 								<span class="adress-text">zikfridalyly</span>
 								</a>
 							</li>
@@ -104,77 +95,52 @@
 					<!-- /Контакты -->
 				</aside>
 				<!-- /Левый блок -->
-		
 				<!-- Контент -->
 				<div class="change-info">
 					<!-- .......................Связаться со мной.................... -->
-            <section class="info">
-
-              <div class="header-wrap">
-                <h2 class="header-text">У вас интересный проект? Напишите мне!</h2>
-                </div>
-
-              <div class="info-body">
-
-                <div class="contact-form-wrap">
-
-                  <form id="contact-me" class="form contact-form">
-
-                    <div class="server-mes error-mes"></div>
-                    <div class="server-mes success-mes"></div>
-
-                    <div class="name-mail-wrap clearfix">
-
-                      <div class="input-form float-left">
-                        <label for="name" class="label">Имя</label>
-                        <input type="text" name="name" placeholder="Как к вам обращаться" class="input">
-                      </div>
-
-                      <div class="input-form float-right">
-                        <label for="email" class="label">Email</label>
-                        <input type="text" name="email" placeholder="Куда мне писать" qtip-position="right" class="input">
-                      </div>
-
-                    </div>
-
-                    <div class="input-form">
-                      <label for="message" class="label">Сообщение</label>
-                      <textarea id="message" name="message" rows="3" placeholder="Кратко в чем суть" class="textarea textarea-kont"></textarea>
-                    </div>
-
-                    <div class="input-form captcha-wrap clearfix">
-                      <label for="captcha" class="label">Введите код, указанный на картинке</label><img src="img/bg_captcha.jpg" alt="код" class="captcha float-left">
-                      <input type="text" name="captcha" placeholder="Введите код" qtip-position="right" class="input input-captcha float-right">
-                    </div>
-
-                    <div class="button-form">
-                      <button type="submit" class="btn">Отправить</button>
-                      <button type="reset" class="btn btn-res">Очистить</button>
-                    </div>
-
-                  </form>
-
-                </div>
-              </div>
-
-            </section>
+		            <section class="info">
+		              <div class="header-wrap">
+		                <h2 class="header-text">У вас интересный проект? Напишите мне!</h2>
+		                </div>
+		              <div class="info-body">
+		                <div class="contact-form-wrap">
+		                  <form id="contact-me" class="form contact-form">
+		                    <div class="server-mes error-mes"></div>
+		                    <div class="server-mes success-mes"></div>
+		                    <div class="name-mail-wrap clearfix">
+		                      <div class="input-form float-left">
+		                        <label for="name" class="label">Имя</label>
+		                        <input type="text" name="name" placeholder="Как к вам обращаться" class="input">
+		                      </div>
+		                      <div class="input-form float-right">
+		                        <label for="email" class="label">Email</label>
+		                        <input type="text" name="email" placeholder="Куда мне писать" qtip-position="right" class="input">
+		                      </div>
+		                    </div>
+		                    <div class="input-form">
+		                      <label for="message" class="label">Сообщение</label>
+		                      <textarea id="message" name="message" rows="3" placeholder="Кратко в чем суть" class="textarea textarea-kont"></textarea>
+		                    </div>
+		                    <div class="input-form captcha-wrap clearfix">
+		                      <label for="captcha" class="label">Введите код, указанный на картинке</label><img src="img/bg_captcha.jpg" alt="код" class="captcha float-left">
+		                      <input type="text" name="captcha" placeholder="Введите код" qtip-position="right" class="input input-captcha float-right">
+		                    </div>
+		                    <div class="button-form">
+		                      <button type="submit" class="btn">Отправить</button>
+		                      <button type="reset" class="btn btn-res">Очистить</button>
+		                    </div>
+		                  </form>
+		                </div>
+		              </div>
+		            </section>
 <!-- ................./Связаться со мной.......................... -->
-					
-
 				</div>
-
-
-
 			</div>
-
-
-
-
 		</div>
 	</div>
 	<footer class="my-footer">
 		<div class="container">
-			<div class="lock"><a href="login.html" class="lock-in">Войти</a></div>
+			<div class="lock"><a href="login.html" class="lock-in"></a></div>
 			<div class="copyright">@ 2015, Это мой личный сайт и будьте добры не воруйте его</div>
 		</div>
 	</footer>

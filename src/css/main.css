@@ -45,6 +45,7 @@ body{
 .wrapper:after{
 	content: "";
 	height: 80px;
+	/*display: block;*/
 }
 .my-footer{
 	min-width: 970px;
@@ -60,7 +61,7 @@ body{
 	max-width: 1200px;
 	min-width: 960px;
 	height: 100%;
-	margin: -7px auto;
+	margin: 0 auto;
 	position: relative;
 }
 .my-header{
@@ -121,10 +122,11 @@ body{
 	position: relative;
 }
 .my-footer .copyright{
+	font-family: 'fira_sanslight'
 	margin: 0 185px;
 	text-align: center;
 	padding-top: 7px;
-	font-size: 12px;
+	font-size: 13px;
 }
 /*/My footer*/
 
@@ -165,9 +167,6 @@ body{
 	background-position-y: -65px;
 }
 /*/Социальные иконки 2*/
-
-
-
 /*Левый блок*/
 .my-aside{
 float: left;
@@ -229,6 +228,7 @@ margin-left: 20px;;
 	background: #3BA8C0;
 }
 .my-adress .adress-header-text{
+	font-family: 'fira_sansbook';
 	font-size: 21px;
 	padding: 3px 3px;
 	color: white;
@@ -238,6 +238,7 @@ margin-left: 20px;;
 /* /Обо мне*/
 
 .my-adress .adress-spisok{
+	font-family: 'fira_sansbook';
 	list-style: none;
 	margin: 0px;
 	padding: 0px;

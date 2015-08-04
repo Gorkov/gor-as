@@ -59,7 +59,7 @@ input, textarea, button {
 	border-color: #3c763d;
 }
 .label{
-	font-family: 'fira_sansbook';
+	font-family: 'fira_sanslight';
 	color: #58697a;
 	font-size: 18px;
 }
@@ -128,3 +128,29 @@ input, textarea, button {
 .textarea:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.4s ease;}
 .textarea:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.4s ease;}
 /* // Элементы форм  */
+/* // file upload*/
+.fileupload-wrapper {
+  width: 100%;
+  position: relative;
+}
+.fileupload-lable{
+	display: block;
+  width: 52px;
+  height: 41px;
+	position: absolute;
+  right: 0;
+	background: url(../img/upload-icon.png) 10px 7px no-repeat;
+	background-color: #48cbe8;
+	border-radius: 0 4px 4px 0;
+}
+.fileupload{ /* хак, взятый из html5boilerplate */
+	border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+/* // file upload end*/
