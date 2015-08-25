@@ -12,8 +12,27 @@ var validate = (function () {
 		$('#login').on('submit', _submitForm);
 		$('#add-new-project').on('submit', _submitForm);
 		$('#contact-me').on('submit', _submitForm);
+		$('#add-new-work').on('click', _showModal);
 	};
+	//работа с ммодальным окном
+	var _showModal = function (ev) {
 
+		ev.preventDefault();
+
+		var divBpopup = $('#new-work-popup'),
+			form = divBpopup.find('.form');
+
+
+			divBpopup.bPopup({
+			speed: 450,
+			transition: 'slideDown',
+				onClose: function () {
+						form.find('.input, .textarea').trigger('hideTooltip');
+						form.find('.has-error').removeClass('has-error');
+						}
+			});
+	};
+		//применение валидации
 	var _submitForm = function (ev) {
 		 ev.preventDefault();
 	      var form = $(this),
@@ -21,11 +40,11 @@ var validate = (function () {
 
 	      vali.init;
 	    };
-
+	    //сброс валидации по keydown 
 	var _removeError = function () {
 		$(this).removeClass('has-error');
 	};
-
+		//очистка валидации по кнопке
 	var _clearForm = function (form) {
 		var form = $(this);
 		form.find('.input, .textarea').trigger('hideTooltip');
@@ -71,7 +90,7 @@ var validate = (function () {
 			}
 		}).trigger('show');
 	};
-	//универсальная функция
+	//универсальная функция валидации
 	var validForm = function (form) {
 		console.log('Валид');
 		var elements = form.find('input, textarea').not('input[type="file"], input[type="hidden"]'),
