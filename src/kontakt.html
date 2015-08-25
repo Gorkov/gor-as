@@ -8,10 +8,12 @@
 	<meta name="description" content="homework">
 	<meta name="keywords" content="homework">
 	<meta name="author" content="Gorkov Anatolii">
-	<!-- normalize -->
+	<!-- bower -->
 	<link rel="stylesheet" href="bower/normalize/normalize.css">
-	<!-- CSS -->
+	<link rel="stylesheet" href="bower/qtip2/jquery.qtip.css">
+	<!-- fonts -->
 	<link rel="stylesheet" href="fonts/fonts.css">
+	<!-- CSS -->
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/contant.css">
 	<link rel="stylesheet" href="css/all-form.css">
@@ -105,25 +107,23 @@
 		              <div class="info-body">
 		                <div class="contact-form-wrap">
 		                  <form id="contact-me" class="form contact-form">
-		                    <div class="server-mes error-mes"></div>
-		                    <div class="server-mes success-mes"></div>
 		                    <div class="name-mail-wrap clearfix">
 		                      <div class="input-form float-left">
 		                        <label for="name" class="label">Имя</label>
-		                        <input type="text" name="name" placeholder="Как к вам обращаться" class="input">
+		                        <input type="text" name="name" placeholder="Как к вам обращаться" class="input" qtip-content="Вы не ввели имя">
 		                      </div>
 		                      <div class="input-form float-right">
 		                        <label for="email" class="label">Email</label>
-		                        <input type="text" name="email" placeholder="Куда мне писать" qtip-position="right" class="input">
+		                        <input type="text" name="email" placeholder="Куда мне писать" qtip-position="right" class="input" qtip-content="Вы не ввели email">
 		                      </div>
 		                    </div>
 		                    <div class="input-form">
 		                      <label for="message" class="label">Сообщение</label>
-		                      <textarea id="message" name="message" rows="3" placeholder="Кратко в чем суть" class="textarea textarea-kont"></textarea>
+		                      <textarea id="message" name="message" rows="3" placeholder="Кратко в чем суть" class="textarea textarea-kont" qtip-content="Что вы от меня хотите?"></textarea>
 		                    </div>
 		                    <div class="input-form captcha-wrap clearfix">
 		                      <label for="captcha" class="label">Введите код, указанный на картинке</label><img src="img/bg_captcha.jpg" alt="код" class="captcha float-left">
-		                      <input type="text" name="captcha" placeholder="Введите код" qtip-position="right" class="input input-captcha float-right">
+		                      <input type="text" name="captcha" placeholder="Введите код" qtip-position="right" class="input input-captcha float-right" qtip-content="Вы не ввели код">
 		                    </div>
 		                    <div class="button-form">
 		                      <button type="submit" class="btn">Отправить</button>
@@ -144,6 +144,9 @@
 			<div class="copyright">@ 2015, Это мой личный сайт и будьте добры не воруйте его</div>
 		</div>
 	</footer>
-	<script src="bower/jquery/dist/jquery.js"></script>	
+	<script src="bower/jquery/dist/jquery.js"></script>
+	<script src="bower/qtip2/jquery.qtip.js"></script>
+	<script src="js/validate.js"></script>
+
 </body>
 </html>

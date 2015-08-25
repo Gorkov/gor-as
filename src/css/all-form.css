@@ -154,3 +154,10 @@ input, textarea, button {
   width: 1px;
 }
 /* // file upload end*/
+.qtip-mystyle{
+	background-color: #f97e76;
+	border-color: #f97e76;
+	font-family: 'fira_sansbook';
+	color: #ffffff;
+	font-size: 13px;
+}
