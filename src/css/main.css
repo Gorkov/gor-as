@@ -72,8 +72,7 @@ body{
 }
 .my-header .logo-link{
 	position: absolute;
-	top: 38px;
-	left: -1px;
+	top: 2px;
 }
 .my-header .logo-text{
 	position: absolute;
@@ -185,7 +184,7 @@ width: 250px;
 	padding: 0;
 }
 .nav .nav-list .nav-spisok{
-	border-top: 2px solid #3ba8c0;
+	border-top: 2px solid #fff;
 	margin: -1px 7px;
 }
 .nav .nav-spisok:first-child{
@@ -205,7 +204,7 @@ margin-left: 20px;;
 }
 /*текущий пункт*/
 .nav .nav-spisok.actual{
-	background: #3BA8C0;
+	background: #58697A;
 	margin: 0;
 	border-bottom: none;
 	margin-bottom: -2px;
@@ -225,7 +224,7 @@ margin-left: 20px;;
 }
 /*Обо мне*/
 .my-adress .adress-header{
-	background: #3BA8C0;
+	background: #58697A;
 }
 .my-adress .adress-header-text{
 	font-family: 'fira_sansbook';
@@ -236,7 +235,10 @@ margin-left: 20px;;
 	display: block;
 }
 /* /Обо мне*/
-
+.conect{
+	border-radius: 4px;
+	overflow: hidden;
+}
 .my-adress .adress-spisok{
 	font-family: 'fira_sansbook';
 	list-style: none;
@@ -248,21 +250,21 @@ margin-left: 20px;;
 	display: block;
 	text-decoration: none;
 	padding: 6px 0px;
-	margin-left: 83px;
+	margin-left: 65px;
 	color: white;
 }
 
 .my-adress .adress-point-mail{
-	background: url(../img/mail.png) 42px no-repeat;
-	background-color: #41B9D4;
+	background: url(../img/mail.png) 25px no-repeat;
+	background-color: #6E8296;
 }
 .my-adress .adress-point-phone{
-	background: url(../img/phone.png) 44px no-repeat;
-	background-color: #48CBE8;
+	background: url(../img/phone.png) 25px no-repeat;
+	background-color: #8A9BAB;
 }
 .my-adress .adress-point-skype{
-	background: url(../img/skype.png) 43px no-repeat;
-	background-color: #51DAF8;
+	background: url(../img/skype.png) 25px no-repeat;
+	background-color: #ABB6C2;
 }
 /*/адреса*/
 
